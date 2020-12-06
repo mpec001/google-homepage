@@ -1,0 +1,266 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <style>
+            .container{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items:stretch;
+                height: 100%;
+                width: 100%;
+            }
+            
+            #header{
+             
+             display:flex;
+             justify-content: space-between;
+             width:100%;
+             font-size:13px;
+             font-family: arial,sans-serif;
+             opacity: 0.75;
+
+         }
+         #header .left{
+             display: flex;
+             justify-content: left;
+             align-items: center;
+             
+         }
+         #header .left p{
+             
+             display:inline;
+             padding-right: 15px;
+         
+         }
+
+         #header .right{
+             display:flex;
+             
+             justify-content: flex-end;
+             align-items: center;
+             margin-right: 15px;
+
+         }
+         #header .right img{
+             
+             display: inline;
+             margin-right: 15px;
+             
+         }
+         #header .right p{
+             
+             display: inline;
+             margin-right: 15px;
+             
+         }
+         #header .right #user{
+             border-radius: 50%;
+             border-radius: 50%;
+             margin-right: 15px;
+         }
+            
+            #buscador{
+                display:flex;
+                margin: 2em auto 0 auto;
+                font-size: 16px;
+                align-items: center;
+                border-radius: 24px;
+                
+                border:1px solid;
+                border-color:#dfe1e5;
+                width:484px;
+                height: 44px;
+                background: white;
+                
+                
+            }
+            #buscador:hover{
+                box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+                
+                border: 1px solid #dadce0;
+                color: #202124;
+            }
+
+            #buscador img{
+                display:block;
+                margin-left: 5px;
+                
+                
+            }
+
+            #buscador input{
+                display:flex;
+                justify-content: left;
+                
+                font-size: 16px;
+                border:none;
+                background-color: white;
+            }    
+
+        
+
+
+            p{
+                display:inline;
+            }
+   
+            #botones{
+                display:flex;
+                justify-content: space-between;
+                margin: 2em auto 0 auto;
+                height: 36px;
+                
+                border-color: #f8f9fa;
+                border-radius: 4px;
+                justify-content: space-between;
+
+            }
+
+            #botones input{
+                border:none;
+                background-color: #f8f9fa;
+                text-align: center;
+                font-size: 14px;
+                font-family: arial,sans-serif;
+                background-color:rgb(248, 249, 250) ;
+                margin: 0 5px 0 5px;
+                
+            }
+
+            #botones input:hover{
+                border:none;
+                background-color: #f8f9fa;
+                text-align: center;
+                border: 1px solid #dadce0
+            }
+
+            
+
+            
+            #logo{
+                padding-top:109px;
+                display:flex;
+                margin: 0px auto 0px auto;
+            }
+            
+            #ofrecido{
+                font-size:13px;
+                font-family: arial,sans-serif;
+                opacity: 0.75;
+                display:flex;
+                margin: 20px auto 20px auto;
+            }
+
+            #footer{
+                display:flex;
+                flex-direction: column;
+                width:100%;
+                justify-content: flex-end;
+            }
+            #footer1{
+                display:flex;
+                
+                background: #f2f2f2;
+                border: 1px solid #dadce0;
+                
+                font-family: arial,sans-serif;
+                
+                
+            }
+            #footer1 p{
+                
+                padding-right: 10px;
+                color: #70757a;
+                margin-left: 30px;
+                font-size: 14px;
+            }
+            #footer2{
+                
+                display:flex;
+                border-left: 1px solid #dadce0;
+                border-right: 1px solid #dadce0;
+                border-bottom: 1px solid #dadce0;
+                background: #f2f2f2;
+                
+                font-family: arial,sans-serif;
+                
+            }
+            #footer2 p{
+                display:inline;
+                padding-right: 10px;
+                color: #70757a;
+                margin-left: 30px;
+                font-size: 14px;
+                
+            }
+           
+           
+
+            #footerleft{
+                display:flex;
+                justify-content: left;
+            }
+
+            #footerright{
+                display:flex;
+                justify-content: right;
+                margin-left:auto;                
+            }
+
+        </style>
+        <div class="container">
+            <div id=header>
+                <div class="left">
+                    <p>Sobre Google</p>
+                    <p>Tienda</p>
+                </div>
+            
+                <div class="right">
+                    <p>Gmail</p>
+                    <p>Imágenes</p>
+                    <img src="9puntos.png">
+                    <img id="user" src="m.png">
+                </div>
+            </div>
+            <div id="logo">
+                <img src="googlelogo.png">
+            </div>
+            <div id="buscador">
+                <img src="lupa.png">
+                <input id='textbox'>
+            </div>
+            <div id="botones">
+                <input id='buscar' value="Buscar con Google">
+                <input id='suerte' value="Voy a tener suerte">
+                
+            </div>
+            <div id="ofrecido">
+                <p>Ofrecido por Google en: <a href=# >English </a><a href=# >catala </a><a href=# >galego </a><a href=# >euskara </a></p>
+            </div>
+            <div id="footer">
+                <div id="footer1">
+                    <p>España</p>
+                </div>
+                <div id="footer2">
+                
+                    <div id="footerleft">
+                        <p>Publicidad</p>
+                        <p>Empresa</p>
+                        <p>Como funciona la búsqueda</p>
+
+                    </div>
+                    <div id="footerright">
+                        <p>Privacidad</p>
+                        <p>Términos</p>
+                        <p>Configuración</p>
+                    </div>
+                
+                
+                
+                </div>
+            </div>
+        </div>
+    </body>
